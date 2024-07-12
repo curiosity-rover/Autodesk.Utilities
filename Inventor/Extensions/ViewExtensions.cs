@@ -20,7 +20,7 @@ public static class ViewExtensions
 
         //init return value
         Dictionary<CurveExtensions.CurveExtentDirection, DrawingCurve> extentCurves = new();
-        Application invapp = (Application)oView.Parent.Parent.Parent;
+        Application invapp = (Application)((Document)oView.Parent.Parent).Parent;
 
         foreach (DrawingCurve oDrawingCurve in oView.DrawingCurves)
         {         

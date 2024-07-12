@@ -34,7 +34,7 @@
   <ItemGroup>
     <Reference Include="Autodesk.Inventor.Interop, Version=28.2.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
       <HintPath>..\References\2024\Autodesk.Inventor.Interop.dll</HintPath>
     </Reference>
     <Reference Include="System" />

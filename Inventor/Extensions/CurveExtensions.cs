@@ -7,7 +7,7 @@ public static class CurveExtensions
 
     public static double CalculateSimilarity(this DrawingCurve curve1, DrawingCurve curve2, int decimalPlaces = 2)
     {
-        Application invapp = (Application)curve1.Parent.Parent.Parent.Parent;
+        Application invapp = (Application)((Document)curve1.Parent.Parent.Parent).Parent;
         curve1.OverrideColor=invapp.TransientObjects.CreateColor(255, 0, 0);
         curve2.OverrideColor=invapp.TransientObjects.CreateColor(255, 0, 0);
 
