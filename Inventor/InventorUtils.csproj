@@ -10,7 +10,7 @@
     <RootNamespace>Inventor</RootNamespace>
     <AssemblyName>Inventor</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <LangVersion>latest   </LangVersion>
+    <LangVersion>latest</LangVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
